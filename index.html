@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI- Generated Fashion Design</title>
+
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="slowNumber.js"></script>
+   
+</head>
+<body>
+    <nav class="navbar2">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="orange" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="orange" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="orange" stroke-width="5"/>
+                </svg>
+                </a>
+                <a href="#"><img src="../autogenerate_transparentwordmark_TGL.png" alt=""></a>
+            </span>
+    </nav>
+        
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#Au">About Us</a>
+            <a href="#F">Features</a>
+            <a href="#D">Design</a>
+            <a href="#T">Team</a>
+       </div>
+    <div class="navbar">
+        <div class="side-1">
+            <a href="#"><img src="autogenerate_transparentwordmark_TGL.png" alt=""></a>
+        </div>
+        <div class="side-2">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#AU">About Us</a></li>
+                <li><a href="#F">Features</a></li>
+                <li><a href="#D">Designs</a></li>
+                <li><a href="#T">Team</a></li>
+                <li ><a id="specialN" href="#DE">GET A DEMO</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main" class="container">
+    <div class="display">
+            <video preload id="video" autoplay loop>
+                    <source src="videot12.mp4" type="video/mp4"></source>
+            </video> 
+        <div class="contentDis">
+            <div class="text">
+                    <h2 id="mh">AI - Generated</h2>
+                    <h2 id="sh">Fashion Designs</h2>
+                    <div class="typedo">
+                        <p id="ch">
+                            We generate
+                        <span class="typedO" id="typed-strings">
+                            <span id="ch"> <span id="style">Apparels</span></span>
+                            <span id="ch"><span id="style">Accesories</span></span>
+                            <span id="ch"><span id="style">Footwear</span></span>
+                        </span>
+                        <span id="typed"></span>
+                        </p>
+                    </div>
+                    
+                    
+                    <!-- <p>We generate accessories.</p> -->
+            </div>
+            <div class="square-sec">
+                <div class="square counter slowNumber">1</div>
+                <div class="square counter slowNumber">3</div>
+                <div class="square counter slowNumber">2</div>
+                <div class="square counter slowNumber">4</div>
+                <div class="square counter slowNumber">8</div>
+                <div class="square counter slowNumber">7</div>
+                <p>Designs Generated</p>
+            </div>
+            <p id="demo"><a href="#DE">GET A DEMO</a></p>   
+        </div>    
+        
+    </div>
+    <div id="AU" class="aboutUs" data-aos="fade-up">
+       
+        <div class="photo">
+            <img src="autogenerate_transparenticon_TGL.png" alt="">
+        </div>
+        <div class="Acontent" >
+            <h1 >About Us</h1>
+            <div class="intro" >
+                <p>We are Creation 2.0 - The Human-AI</p> 
+                <p>Collaboration</p>
+            </div>
+            <div class="intro2">
+                <p>We are Creation 2.0 - The Human-AI Collaboration</p>
+            </div>
+            <div class="para-1">
+                <em>
+                <p>Autogenerate.ai is a SaaS-based solution for fashion</p> 
+                <p>companies with a focus on automatic creation and</p>
+                <p>modification of trendy designs for fashion products</p>
+                <p>through AI (Artificial Intelligence).</p>
+                </em>
+            </div>
+            <div class="para-2">
+                <em>
+                <p>Consumer habits are changing continuously and it is </p>
+                <p>becoming increasingly important for businesses to adapt</p>
+                <p>to their changing needs.Autogenerate.ai uses state-of-</p>
+                <p>the-art deep learning technology to augment creativity</p>
+                <p>by machines, assisting fashion producers in rolling-out a </p>
+                <p>vast variety of products to the market promptly.</p>
+                </em>
+            </div>
+        </div>
+        <div id="F" class="stopF"></div>  
+    </div>
+    <div class="features" data-aos="fade-up">
+        <div class="f1">
+            <h1>Features</h1>
+            <p>Our Generative capabilities enable Human-AI </p>
+            <p>collaboration in Fashion Designing</p>
+        </div>
+        <div class="f12">
+            <h1>Features</h1>
+            <p>Our Generative capabilities enable Human-AI collaboration in Fashion Designing </p>
+        </div>
+        <img class="fp1" src="./Machine@2x.png" alt="">
+        <div class="f2">
+            <h1>Machine-driven</h1>
+            <p>Let machines ideate and create new designs,</p>
+            <p>based on your requirements</p>
+        </div>
+        <div class="f22">
+            <h1>Machine-driven</h1>
+            <p>Let machines ideate and create new designs,based on your requirements</p>
+        </div>
+        <img class="fp2" src="./Human@2x.png" alt="">
+        <div class="f3">
+            <h1>User-driven</h1>
+            <p>Use our generative tools to transform your ideas</p>
+            <p>into designs within seconds</p>
+        </div> 
+        <div class="f32">
+            <h1>User-driven</h1>
+            <p>Use our generative tools to transform your ideas into designs within seconds</p>
+        </div> 
+        <div class="img-f">
+                <img src="autogenerate_transparenticon_TGL.png" alt="">
+        </div> 
+        <div id="D" class="stopD"></div>  
+    </div>
+    <div id="D" class="Design" data-aos="fade-up">
+        <h1>Design Samples</h1>
+            <div class="product">
+                <div class="box-1"> <img src="./dress-7.png" alt=""></div>
+                <div class="box-2"> <img src="./dress-5.png" alt=""></div>
+                <div class="box-3"><div class="D1C"><p>Our bots are still learning</p> <p>technique of <strong>shoemaking</strong> in the bot school.</p> <p>Soon they'll be making</p><p>awesome <strong>footwears.</strong></p></div></div>
+                <div class="box-4"> <img src="./dress-4.png" alt=""></div>
+                <div class="box-5"> <img src="./dress-2.jpeg" alt=""></div>
+                <div class="box-6"> <img src="./dress-1.jpeg" alt=""></div>
+                <div class="box-7"><div class="D2C"><p>Our special bots</p><p>are making <strong>handbags</strong></p><p>right now.</p><p><strong>Hold on Tight.</strong></p></div> </div>
+                <div class="box-8"> <img src="./dress-3.jpeg" alt=""></div>
+                <div class="box-9"> <img src="./dress-6.png" alt=""></div>   
+        </div>
+        <div class="image-slider">
+
+                <input type="radio" name="images" id="i1" checked>
+                <input type="radio" name="images" id="i2">
+                <input type="radio" name="images" id="i3">
+                <input type="radio" name="images" id="i4">
+                <input type="radio" name="images" id="i5">
+                <input type="radio" name="images" id="i6">
+                <input type="radio" name="images" id="i7">
+                <input type="radio" name="images" id="i8">
+                <input type="radio" name="images" id="i9">
+        
+        
+                <div class="slide-image" id="one">
+                    <img src="./dress-7.png">
+        
+                    <label for="i9" class="pre"></label>
+                    <label for="i2" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="two">
+                        <img src="./dress-2.jpeg">
+        
+                    <label for="i1" class="pre"></label>
+                    <label for="i3" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="three">
+                        <img src="./dress-3.jpeg">
+        
+                    <label for="i2" class="pre"></label>
+                    <label for="i4" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="four">
+                        <img src="./dress-4.png">
+        
+                    <label for="i3" class="pre"></label>
+                    <label for="i5" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="five">
+                        <img src="./dress-5.png">
+        
+                    <label for="i4" class="pre"></label>
+                    <label for="i6" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="six">
+                        <img src="./dress-6.png">
+        
+                    <label for="i5" class="pre"></label>
+                    <label for="i7" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="seven">
+                        <img src="./dress-1.jpeg">
+        
+                    <label for="i6" class="pre"></label>
+                    <label for="i8" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="eight">
+                        <img src="./Capture3.PNG">
+        
+                    <label for="i7" class="pre"></label>
+                    <label for="i9" class="nxt"></label>
+        
+                </div>
+                <div class="slide-image" id="nine">
+                        <img src="./Capture4.PNG">
+        
+                    <label for="i8" class="pre"></label>
+                    <label for="i1" class="nxt"></label>
+                </div>
+        
+                <div class="nav-img">
+                    <label class="dots" id="dot1" for="i1"></label>
+                    <label class="dots" id="dot2" for="i2"></label>
+                    <label class="dots" id="dot3" for="i3"></label>
+                    <label class="dots" id="dot4" for="i4"></label>
+                    <label class="dots" id="dot5" for="i5"></label>
+                    <label class="dots" id="dot6" for="i6"></label>
+                    <label class="dots" id="dot7" for="i7"></label>
+                    <label class="dots" id="dot8" for="i8"></label>
+                    <label class="dots" id="dot9" for="i9"></label>
+                </div>
+        </div>
+    </div>
+    <div class="why" data-aos="fade-up">
+        <h1>Why choose us ?</h1>
+        <div class="whygrid">
+            <div class=""></div>
+            <div class="p1">
+                <img src="p1.png" alt="">
+            </div>
+            <div class="w1" data-aos="fade-left">
+                <h1>Speed & Cost</h1>
+                <p>Reduce lead time by saving days spent on finding
+                design inspiration and identifying trends.Receive
+                early design feedback from customers without
+                having to wait for physical samples.</p>
+            </div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="w2" data-aos="fade-right">
+                <h1>Variety</h1>
+                <p>Choose from large variety of styles from our
+                platform, which can generate hundreds of new
+                designs in minutes keeeping your design-DNA
+                intact.</p>
+            </div>    
+            <div class="p2">
+                <img src="p2.png" alt="">
+            </div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="p3">
+                <img src="p3.png" alt="">    
+            </div>
+            <div class="w3" data-aos="fade-left">
+                <h1>Creativity</h1>
+                <p>Challenge the traditional designing
+                methodologies by taking inspiration from
+                machine-generated creative designs.</p>
+            </div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class="w4" data-aos="fade-right">
+                <h1>Market-Fit</h1>
+                <p>Respond to changing consumer preferences by
+                rapid analytics and generation of trendy designs
+                through our platform.</p>
+            </div>
+            <div class="p4">
+                <img src="p4.png" alt="">
+            </div>
+            <div class=""></div>
+        </div>
+    </div>
+    <div id="DE" class="demo" data-aos="fade-up">
+        <img src="./demomesh.png.svg" alt="">
+        <h1>Get a demo</h1>
+        <form class="submission">
+            <input type="text" name="name" placeholder="Name" id="name">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="Email" placeholder="Email" id="Email">
+            <label for="Email">Email</label>
+            <br>
+            <input id="special" type="text" name="Phone Number" id="Mob" placeholder="Phone Number">
+            <label for="Mob">Phone Number</label>
+            <br>
+            <a href="">Submit 	<div id="cube">&rarr;</div></a>
+            
+        </form>
+        <div id="T" class="stopT"></div>
+    </div>
+    
+    <div  class="meet" data-aos="fade-up">
+        <h1>Meet the team</h1>
+        <div class="gridmeet">
+                <div class="col">
+                    <div class="img-box m1">
+                        <div class="WB">
+                            <a href="https://in.linkedin.com/in/sehajsinghkalra"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="textmeet">
+                        <h2>Sehaj Singh</h2>
+                        <p>Co-Founder</p>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="img-box m2">
+                        <div class="WB">
+                            <a href="https://sg.linkedin.com/in/sukrit-singh-raghuvanshi-04613025"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="textmeet">
+                            <h2>Sukrit Singh</h2>
+                            <p>Co-Founder</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-box m3">
+                        <div class="WB">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div></div>
+                    <div class="textmeet">
+                            <h2 style="width: max-content;">Govind Kumar</h2>
+                            <p>Rockstar Intern</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-box m4">
+                        <div class="WB">
+                            <a href="https://in.linkedin.com/in/vijaykgupta"><i class="fab fa-linkedin-in"></i></a>
+                    </div></div>
+                    <div class="textmeet">
+                            <h2>Vijay Gupta</h2>
+                            <p>Advisor</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-box m5">
+                        <div class="WB">
+                            <a href="https://www.linkedin.com/in/deepak-arora-a16285a"><i class="fab fa-linkedin-in"></i></a>
+                    </div></div>
+                    <div class="textmeet">
+                            <h2>Deepak Arora</h2>
+                            <p>Advisor</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+        <h1>AI Generated Fashion Designs</h1>
+        <p>info@autogenerate.ai</p>
+        <p>I-85, Lajpat Nagar-1, New Delhi - 110024, India</p>
+        <br>
+        <a href="https://www.facebook.com/autogeneratedesign/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/autogenerate.ai/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/autogenerate_ai"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/autogenerate-ai"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+<!-- 
+    <script src="jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+    <script>
+    jQuery(document).ready(function( $ )
+    {
+        $('.counter').counterUp({
+            delay: 1,
+            time:1000
+        });
+    })
+    </script> -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000
+        });
+    </script>
+
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          smartBackspace: false,
+          startDelay: 500,
+          backSpeed: 50,
+          loop: true,
+          loopCount: Infinity,
+          typeSpeed:50
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
