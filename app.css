@@ -676,6 +676,7 @@ hr
 }
 .demo form input::placeholder
 {
+    font-family: "F37Ginger-LightItalic";
     z-index: 9999;
     color:white;
     font-size:2.2vh;
