@@ -669,6 +669,43 @@ hr
 {
     height:175vh;
 }
+.whygrid2
+{
+    display:none;
+}
+@media only screen and (max-width: 1000px)
+{
+    .why > h1
+    {
+        font-size:6vh;
+    }
+    .whygrid
+    {
+        height:300vh;
+        display:none;
+    }
+    .whygrid2
+    {
+        display:block;
+        text-align: center;
+    }
+    .wg1 img, .wg2 img, .wg3 img, .wg4 img
+    {
+        width:100vw;
+        padding-bottom:1vh;
+    }
+    .wg1 h1, .wg2 h1, .wg3 h1, .wg4 h1
+    {
+        color:#75C6EE;
+        padding-bottom:1vh;
+    }
+    .wg1 p, .wg2 p, .wg3 p, .wg4 p
+    {
+        color:#6e6e6ee1;
+        padding-bottom: 4vh;
+    }
+
+}
 /*--------------------------------------------------Why Choose Us Ends---------------------------------------------------*/
 /*--------------------------------------------------Demo-----------------------------------------------------------------*/
 .demo
@@ -771,7 +808,14 @@ hr
     width: 0;
     margin-top: -3.5rem;
 }
-
+@media only screen and (max-width: 1000px)
+{
+    .demo
+    {
+        margin-top:83vh;
+    }
+    
+}
 /*--------------------------------------------------Demo Ends-------------------------------------------------------------*/
 /*--------------------------------------------------Meet-------------------------------------------------------------------*/
 .stopT
