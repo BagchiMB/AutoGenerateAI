@@ -35,6 +35,13 @@
             font-weight: normal;
             font-style: normal;
         }
+        @font-face {
+            font-family: "F37Ginger-Bold";
+          
+            src: url("./fonts/ginger-bold.woff2") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+        }
           
 
 /*--------------------------------------------------Navbar-----------------------------------------------------------*/
@@ -284,6 +291,10 @@ hr
 {
     padding-top:5vh;
 }
+.sq-grp
+{
+    display:flex;
+}
 .square-sec p
 {
     font-size:4.5vh;
@@ -311,6 +322,10 @@ hr
     border-color: #665eaa !important;
     transition: all 0.4s ease 0s;
 }
+#arrowD
+{
+    display:none;
+}
 @media only screen and (max-width: 1000px)
 {
     .container
@@ -325,19 +340,20 @@ hr
     {
         background-color: #665eAA;
         margin-top:-10vh;
-        height:80vh;
+        height:65vh;
     }
     .contentDis
     {
-        margin-top:-5vh;
+        font-family: "F37Ginger-Bold";
+        margin-top:-1.5vh;
     }
     #mh
     {
-        font-size: 5vh;
+        font-size: 6vh;
     }
     #sh
     {
-        font-size: 4vh;
+        font-size: 6vh;
     }
     .text .typedo p
     {
@@ -345,19 +361,35 @@ hr
     }
     .square-sec
     {
+        display:block;
         height:5vh;
     }
     .square
     {
-        padding:3px;
+        padding:10px;
     }
     .square-sec p
     {
-        font-size:2vh;
+        margin-top:-1vh;
+        font-size:4vh;
+        margin-left:-2.5vw
     }
     #demo
     {
-        margin-top:5vh;
+        margin-top: 15vh;
+        margin-left: 18vw;
+    }
+    #demo a
+    {
+        background: #fff;
+        color:#665eAA;
+        padding: 2vh 45px;
+    }
+    #arrowD
+    {
+        display:block;
+        margin-top:8vh;
+        margin-left:40vw;
     }
 }
 /*------------------------------------------------Display Ends---------------------------------------------------------------*/
@@ -414,6 +446,7 @@ hr
     .aboutUs
     {
         display:block;
+        height:65vh;
     }
     .photo
     {
@@ -421,11 +454,13 @@ hr
     }
     .Acontent
     {
+        margin-top:-9vh;
         padding-left:1vw;
+        text-align: center;
     }
     .Acontent h1
     {
-        font-size:6vh;
+        font-size:6.8vh;
     }
     .Acontent .intro
     {
@@ -435,12 +470,16 @@ hr
     {
         display:block;
         color:#6e6e6e;
-        font-size:2.5vh;
+        font-size:2.7vh;
+        margin-left:-4vw;
+        margin-top: -2vh;
         padding-bottom:3vh;
     }
     .Acontent .para-1, .Acontent .para-2
     {
-        font-size:2vh;
+        margin-left:-10vw;
+        width:80vw;
+        font-size:2.6vh;
     }
 }
 /*----------------------------------------------------About Us ends-------------------------------------------------*/
