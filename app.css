@@ -948,6 +948,33 @@ hr
     top:18vh;
     left:9.5vw;
 }
+@media only screen and (max-width: 1000px)
+{
+    .meet
+    {
+        height:220vh;
+    }
+    .meet .gridmeet
+    {
+        display:block;
+    }
+    .meet .gridmeet .col
+    {
+        margin-left: 10vw;
+    }
+    .meet h1
+    {
+        font-size: 6.3vh;
+    }
+    .meet .gridmeet .col .textmeet 
+    {
+        padding-bottom: 5vh;
+    }
+    .WB
+    {
+        left:35vw; 
+    }
+}
 /*--------------------------------------------------Meet ends--------------------------------------------------------------*/
 /*----------------------------------------------Footer---------------------------------------------------------------------*/
 .footer
