@@ -337,7 +337,9 @@ hr
     }
     .display video
     {
-        display:none;
+        width:180vw;
+        margin-left:-80vw;
+        margin-top:-10vh;
     }
     .display
     {
@@ -688,7 +690,7 @@ hr
     }
     .wg1 img, .wg2 img, .wg3 img, .wg4 img
     {
-        width:100vw;
+        width:90vw;
         padding-bottom:1vh;
     } 
     .wg1 h1, .wg2 h1, .wg3 h1, .wg4 h1
@@ -1279,7 +1281,7 @@ hr
 {
     .Design
     {
-        height: 185vh;
+        height: 195vh;
     }
     .product
     {
