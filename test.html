@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+     .product
+    {
+        display:grid;
+        grid-template-columns:repeat(8,1fr);
+        grid-template-rows:repeat(14,1fr);
+        /* background-color: rgb(83, 81, 81); */
+        grid-gap:2px;
+    }
+    .product > div
+    {
+        background-color: rgb(83, 81, 81);
+        /* height:20vh; */
+    } 
+     .product .box-1
+    {
+        grid-row: span 3;
+        grid-column: 1/6;
+    }
+    .product .cc img
+    {
+        width:100%;
+        height:100%;
+    }
+    .product .box-2
+    {
+        grid-row: 1/3;
+        grid-column: 6/9;
+    }
+    .product .box-3
+    {
+        grid-row: 4/6;
+        grid-column: 1/6;
+        z-index:3;
+    }
+    .product .box-3 img
+    {
+        
+    }
+    .product .box-4
+    {
+        grid-row: 3/6;
+        grid-column: 6/9;
+        z-index:2;
+    }
+    .product .box-4 img
+    {
+        height:100%;
+        width:160%;
+        margin-left:-10vw;
+        
+    }
+    .product .box-7
+    {
+        grid-row: 6/9;
+        grid-column: 1/9;
+    }
+    .product .box-7, .product .box-8, .product .box-9, .product .box-5, .product .box-6
+    {
+        height:90%;
+    }
+    .product .box-5
+    {
+        grid-row:9/12;
+        grid-column: 1/5;
+    }
+    .product .box-6
+    {
+        grid-row:9/12;
+        grid-column:5/9;
+    }
+    .product .box-8
+    {
+        grid-row:12/15;
+        grid-column:1/5;
+    }
+    .product .box-9
+    {
+        grid-row:12/15;
+        grid-column: 5/9;
+    } 
+    </style>
+</head>
+<body>
+    <div id="D" class="Design">
+        <h1>Design Samples</h1>
+            <div class="product">
+                <div class="cc box-1"> <img src="./dress-7.png" alt=""></div>
+                <div class="cc box-2"> <img src="./dress-5.png" alt=""></div>
+                <div class="cc box-3"> <img src="./check1.png" alt=""></div>
+                <div class="cc box-4"> <img src="./dress-4.png" alt=""></div>
+                <div class="cc box-5"> <img src="./dress-2.jpeg" alt=""></div>
+                <div class="cc box-6"> <img src="./dress-1.jpeg" alt=""></div>
+                <div class="cc box-7"> <img src="./check2.png" alt=""> </div>
+                <div class="cc box-8"> <img src="./dress-3.jpeg" alt=""></div>
+                <div class="cc box-9"> <img src="./dress-6.png" alt=""></div>   
+                <!-- <div class="box-1">1</div>
+                <div class="box-2">2</div>
+                <div class="box-3">3</div>
+                <div class="cc box-4">4</div>
+                <div class="cc box-5">5</div>
+                <div class="cc box-6">6</div>
+                <div class="cc box-7">7</div>
+                <div class="cc box-8">8</div>
+                <div class="cc box-9">9</div>  -->
+    </div>
+</body>
+</html>
