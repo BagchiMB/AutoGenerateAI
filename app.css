@@ -15,7 +15,7 @@
             box-sizing: border-box;
             /* font-size: 62.5%; */
             /* background-color: #141414; */
-            font-family: "F37Ginger";
+            font-family: "F37Ginger","sans-serif";
             overflow-x: hidden;
         }
         p, h1, h2
@@ -23,7 +23,7 @@
             cursor:default;
         }
         @font-face {
-            font-family: "F37Ginger";
+            font-family:"F37Ginger";
             src: url("ginger-regular.woff2") format("woff2"); /* Modern Browsers */
             font-weight: normal;
             font-style: normal;
@@ -602,6 +602,7 @@ hr
 {
     height:130vh;
     text-align: center;
+    margin-left:-3vw;
 } 
 .Design h1
 {
@@ -613,6 +614,10 @@ hr
 }
 /*------------------------------------------------Design Sample ends-----------------------------------------------------*/
 /*--------------------------------------------------Why Choose Us--------------------------------------------------------*/
+.why
+{
+    margin-left:-5vw;
+}
 .why > h1
 {
     font-size:7.5vh;
@@ -637,6 +642,10 @@ hr
     font-family: "F37Ginger-LightItalic";
     color:#6e6e6ee1;
     font-size:20px;
+}
+.p3 img
+{
+    margin-left:6vw;
 }
 .w2 p, .w4 p
 {
@@ -857,6 +866,10 @@ hr
     position: relative;
     top:20vh;
 }
+.meet
+{
+    margin-left: -1.5vw;
+}
 .meet h1
 {
     text-align: center;
@@ -1035,9 +1048,9 @@ hr
     font-size:5vh;
     padding-left:2vw;
 }
-.footer a:hover
+.social
 {
-    color:rgb(252, 63, 94);
+    margin-left:-2.5vw;
 }
 @media only screen and (max-width: 1000px)
 {
