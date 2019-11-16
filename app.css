@@ -488,7 +488,7 @@ hr
 .stopF
 {
     position: relative;
-    top:87vh;
+    top:83vh;
 }
 .features 
 {
@@ -546,7 +546,7 @@ hr
     top:5vh;/* 10 */
     height:125vh;
     width:125vh;
-    left:-11.5vw;
+    left:-13.5vw;
 }
 @media only screen and (max-width: 1000px)
 {
@@ -857,7 +857,7 @@ hr
 .stopT
 {
     position: relative;
-    top:25vh;
+    top:20vh;
 }
 .meet h1
 {
