@@ -1286,14 +1286,8 @@ hr
         display:grid;
         grid-template-columns:repeat(8,1fr);
         grid-template-rows:repeat(14,1fr);
-        /* background-color: rgb(83, 81, 81); */
         grid-gap:2px;
     }
-    .product > div
-    {
-        background-color: rgb(83, 81, 81);
-        /* height:20vh; */
-    } 
      .product .box-1
     {
         grid-row: span 3;
