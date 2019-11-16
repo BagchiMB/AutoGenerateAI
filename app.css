@@ -59,7 +59,7 @@
     display:flex;
     background-color: #665eAA;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     width:100vw;
     height:3vh;
 }
@@ -714,16 +714,18 @@ hr
     margin-top:2vh;
     height:85vh;
     background-color: #6660AA;
+    position: relative;
 }
 .demo img
 {
-    z-index:0;
+    display:block;
+    /* z-index:0; */
     position: absolute;
-    height:125vh;
-    width:125vh;
+    height:160vh;
+    width:160vh;
     /* top:10vh; */
-    margin-top:-10vh;
-    margin-left:-4vw;
+    margin-top:-35vh;
+    margin-left:-3vw;
 }
 .demo h1
 {
@@ -735,7 +737,8 @@ hr
 .demo form input
 {
     /* margin-left:60vw; */
-    z-index: 9999;
+    position: relative;
+    z-index: 1;
     margin-bottom:3vh;
     padding:1vh;
     outline: none;
@@ -757,6 +760,8 @@ hr
 .demo form a
 {
     /* margin-left:63vw; */
+    position: relative;
+    z-index: 1;
     display: block;
     width: fit-content;
     margin-top:1vh;
@@ -789,9 +794,10 @@ hr
 }
 .submission{
     background-color: #6660AA;
-    z-index: 2;
+    z-index: 1;
     width: 600px;
     margin-left:61vw;
+    margin-top:7vh;
 }
 .submission label{
     display: block;
@@ -814,6 +820,35 @@ hr
     .demo
     {
         margin-top:83vh;
+    }
+    .demo h1
+    {
+        padding-top:4vh;
+        font-size: 7vh;
+        margin-left:-9vw;
+        padding-bottom:10vh;
+    }
+    .demo img
+    {
+        height:200vh;
+        width:200vh;
+        top:-25vh;
+        left:-90vw;
+    }
+    .submission
+    {
+        margin-left: 10vw;
+    }
+    .submission a
+    {
+        margin-left:17vw;
+    }
+    .demo form a
+    {
+        padding-left:15vw;
+        padding-right:15vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
     }
     
 }
@@ -1005,6 +1040,27 @@ hr
 .footer a:hover
 {
     color:rgb(252, 63, 94);
+}
+@media only screen and (max-width: 1000px)
+{
+    .footer
+    {
+        padding-top:4vh;
+    }
+    .footer h1
+    {
+        font-size: 3vh;
+        margin-bottom:4vh;
+    }
+    .footer p
+    {
+        padding-bottom:5px;
+        font-weight:600;
+    }
+    .footer a
+    {
+        padding-left:6vw; 
+    }
 }
 /* -----------------------------------------------alag alag---------------------------- */
 
