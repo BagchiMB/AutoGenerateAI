@@ -522,7 +522,7 @@ hr
     position:absolute;
     left:37vw;
 }
-.f12,.f22,.f32, .img-f
+.f12, .f22, .f32
 {
     display:none;
 }
@@ -568,40 +568,68 @@ hr
 }
 @media only screen and (max-width: 1000px)
 {
-    .fp1,.fp2
+    .features
     {
-        display: none;
+        height:85vh;
     }
-    .f1,.f2,.f3
+    .f1, .f2, .f3
     {
         display:none;
     }
-    .f12,.f22,.f32
+    .f12, .f22, .f32
     {
         display:block;
+        color:#fff;
+    }
+    .f12
+    {
+        text-align:center;
+        margin-top:-3vh;
     }
     .features .f12 h1, .features .f22 h1, .features .f32 h1
     {
-        text-align: center;
-        font-size:4.3vh;
-        color:#fff;
-        padding-bottom:1vh;
+        font-family: "F37Ginger-Bold";
+        font-size:3vh;
     }
-    .features .f12 p, .features .f22 p, .features .f32 p
+    .features .f12 h1
     {
-        text-align: center;
-        color:#fff;
+        font-size:4vh;
+    }
+    .features .f12 p,.features .f22 p,.features .f32 p
+    {
+        font-family: "F37Ginger-LightItalic";
         font-size:2.3vh;
-        padding:0 2vh 7vh 2vh;
     }
-    .img-f
+    .features .f12 p
     {
-        display:block;    
+        font-size:2.6vh;
     }
-    .img-f img
+    .features .f22
     {
-        width:53vw;
-        padding-left:26vw;
+        margin-top:10vh;
+        margin-left:5px;
+        width:70vw;
+    }
+    .features .f32
+    {
+        margin-top:30vh;
+        margin-left:31vw;
+    }
+    .fp1
+    {
+        position:absolute;
+        width:45vh;
+        height:45vh;
+        top:23vh;
+        left:41vw;
+    }
+    .fp2
+    {
+        position:absolute;
+        width:45vh;
+        height:45vh;
+        top:35vh;
+        left:-29vw;
     }
 }
 /*--------------------------------------------------Features Ends--------------------------------------------------------*/
@@ -838,6 +866,20 @@ hr
 }
 @media only screen and (max-width: 1000px)
 {
+    .demo form input
+    {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    padding: 1vh;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 220px;
+    height: 25px;
+    background-color: #6660AA;
+    color: #fff;
+    }
     .demo
     {
         margin-top:506px;
@@ -853,7 +895,7 @@ hr
     {
         height: 1200px;
         width: 1200px;
-        top: -149px;
+        top: -135px;
         left: -90vw;
     }
     .submission
