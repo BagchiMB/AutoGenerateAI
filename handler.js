@@ -1,18 +1,19 @@
 
     function sendData() {
-        console.log("test");
+      
         var form = document.getElementById("my_form");
       var XHR = new XMLHttpRequest();
   
       // Bind the FormData object and the form element
       var FD = new FormData(form);
-  
+      
       // Define what happens on successful data submission
       XHR.addEventListener("load", function(event) {
-        document.getElementById('my_form').style.display = "none";
+        // document.getElementById('my_form').style.display = "none";
 
-        // document.getElementById('res').innerHTML = FD.get("name");
-        // document.getElementById('thankyou_message').style.display = "block";
+        document.getElementById('res').innerHTML = FD.get("name");
+        document.getElementById('overlay').style.display = "block";
+        my_form.reset();
       });
   
       // Define what happens in case of error

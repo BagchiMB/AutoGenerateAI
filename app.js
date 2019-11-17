@@ -18,6 +18,12 @@ function openSlideMenu(){
     document.getElementById('main').style.marginLeft = '0';
   }
 
+
+var ok = document.getElementById('nikl');
+ok.addEventListener("click", function(){
+  overlay.style.display = "none";
+});
+
 //   var sections = $('section')
 //   , nav = $('nav')
 //   , nav_height = nav.outerHeight();
@@ -49,3 +55,48 @@ function openSlideMenu(){
   
 //   return false;
 // });
+var features = document.getElementById("FN");
+var about = document.getElementById("AUN");
+var designs = document.getElementById("DN");
+var team = document.getElementById("TN");
+var home = document.getElementById("HN");
+
+
+var waypoint = new Waypoint({
+  element: document.getElementById('AU'),
+  handler: function() { 
+    home.classList.toggle("activeC");
+    about.classList.toggle("activeC");
+  }
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('F'),
+  handler: function() { 
+    about.classList.toggle("activeC");
+    features.classList.toggle("activeC");
+  }
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('D'),
+  handler: function() { 
+    features.classList.toggle("activeC");
+    designs.classList.toggle("activeC");
+  }
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('T'),
+  handler: function() { 
+    designs.classList.toggle("activeC");
+    team.classList.toggle("activeC");
+  }
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('top'),
+  handler: function() { 
+    home.classList.toggle("activeC");
+  }
+})

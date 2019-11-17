@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
     <script src="slowNumber.js"></script>
     <script src="handler.js"></script>
 </head>
@@ -27,7 +28,7 @@
                 <a href="#"><img src="../autogenerate_transparentwordmark_TGL.png" alt=""></a>
             </span>
     </nav>
-        
+    <!-- <div class="stopH">P</div>     -->
         <div id="side-menu" class="side-nav">
             <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
             <a href="#">Home</a>
@@ -42,16 +43,23 @@
         </div>
         <div class="side-2">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#AU">About Us</a></li>
-                <li><a href="#F">Features</a></li>
-                <li><a href="#D">Designs</a></li>
-                <li><a href="#T">Team</a></li>
+                <li><a id="HN" class="activeC" href="#">Home</a></li>
+                <li><a id="AUN" href="#AU">About Us</a></li>
+                <li><a id="FN" href="#F">Features</a></li>
+                <li><a id="DN" href="#D">Designs</a></li>
+                <li><a id="TN" href="#T">Team</a></li>
                 <li ><a id="specialN" href="#DE">GET A DEMO</a></li>
             </ul>
         </div>
     </div>
     <div id="main" class="container">
+            <div id="overlay">
+                <div id="thanks">
+                    <p id="TN">Thanks <span id=res></span></p>
+                    <p id="MN">We will reach you soon</p>
+                    <p><a  class="BN" id="nikl" href="#DE">OK</a></p>
+                </div>
+            </div>
     <div class="display">
             <video preload id="video" autoplay loop>
                     <source src="videot12.mp4" type="video/mp4"></source>
@@ -257,18 +265,20 @@
         <img src="./demomesh.png.svg" alt="">
         <h1>Get a demo</h1>
         <form class="submission" id="my_form" name="my_form">
-            <input type="text" name="name" placeholder="Name" id="name">
+            <input id="clear" type="text" name="name" placeholder="Name" id="name">
             <label for="name">Name</label>
             <br>
-            <input type="text" name="email" placeholder="Email" id="Email">
+            <input id="clear" type="text" name="email" placeholder="Email" id="Email">
             <label for="Email">Email</label>
             <br>
-            <input id="special" type="text" name="phoneno" id="Mob" placeholder="Phone Number">
+            <!-- <input id="special" type="text" name="phoneno" id="Mob" placeholder="Phone Number"> -->
+            <input id="clear" type="text" name="phoneno" id="Mob" placeholder="Phone Number">
             <label for="Mob">Phone Number</label>
             <br>
             <a href="javascript:{}"  onclick="sendData();">Submit 	<div id="cube">&rarr;</div></a>
             
         </form>
+        
         <div id="T" class="stopT"></div>
     </div>
     
