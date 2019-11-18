@@ -135,10 +135,12 @@ hr
     }
     .navbar2{
         display:block;
+        
     }
     .side-nav
     {
         display:block;
+
     }
     .navbar2{
         background-color: #665eAA;
@@ -170,11 +172,11 @@ hr
       }
       
       .side-nav{
-        height:100%;
+        height:100vh;
         width:0;
         position:fixed;
-        z-index:1;
-        top:0;
+        z-index:11000;
+        /* top:0; */
         left:0;
         background-color:#111;
         opacity:0.9;
@@ -571,6 +573,10 @@ hr
 }
 @media only screen and (max-width: 1000px)
 {
+    .stopF
+    {
+        top:4vh;
+    }
     .features
     {
         height:85vh;
@@ -655,6 +661,14 @@ hr
     margin:5vh;
     margin-bottom:10vh;
 
+}
+@media only screen and (max-width: 1000px)
+{
+    .stopD
+    {
+        position: relative;
+        top:4vh;
+    }
 }
 /*------------------------------------------------Design Sample ends-----------------------------------------------------*/
 /*--------------------------------------------------Why Choose Us--------------------------------------------------------*/
