@@ -792,7 +792,7 @@ hr
     /* margin-left:60vw; */
     position: relative;
     z-index: 1;
-    margin-bottom:3vh;
+    margin-bottom:-1vh;
     padding:1vh;
     outline: none;
     border:2px solid #fff;
@@ -856,8 +856,9 @@ hr
     display: block;
     color: white;
     padding: 0;
+    transform: translateY(-60px);
     margin: 0;
-    margin-top: -1rem;
+    /* margin-bottom: 0rem; */
     transition: all .25s;
 }
 
@@ -865,7 +866,8 @@ hr
     visibility: hidden;
     backface-visibility: hidden;
     width: 0;
-    margin-top: -3rem;
+    /* margin-bottom: -2rem; */
+    transform: translateY(-30px);
 }
 @media only screen and (max-width: 1000px)
 {
@@ -873,7 +875,7 @@ hr
     {
     position: relative;
     z-index: 1;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
     padding: 1vh;
     outline: none;
     border: 2px solid #fff;
@@ -915,8 +917,10 @@ hr
         padding-right:15vw;
         padding-top: 8px;
         padding-bottom: 8px;
-    }
-    
+    }    
+.submission label{
+   transform: translateY(-50px);
+}
 }
 /*--------------------------------------------------Demo Ends-------------------------------------------------------------*/
 /*--------------------------------------------------Meet-------------------------------------------------------------------*/
@@ -1224,11 +1228,6 @@ hr
 .product .D2C
 {
     margin-left:-5vw;
-}
-.product div
-{
-    /* border:1px solid black; */
-    /* background-color: grey; */
 }
 .product .box-1
 {
