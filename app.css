@@ -870,7 +870,11 @@ hr
     transform: translateY(-30px);
 }
 @media only screen and (max-width: 1000px)
-{
+{   
+    .demo{
+        height: 500px;
+    }
+
     .demo form input
     {
     position: relative;
