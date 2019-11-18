@@ -63,7 +63,7 @@ var home = document.getElementById("HN");
 
 
 var waypoint = new Waypoint({
-  element: document.getElementById('AU'),
+  element: document.getElementById('AUNav'),
   handler: function() { 
     home.classList.toggle("activeC");
     about.classList.toggle("activeC");
@@ -71,7 +71,7 @@ var waypoint = new Waypoint({
 })
 
 var waypoint = new Waypoint({
-  element: document.getElementById('F'),
+  element: document.getElementById('FNav'),
   handler: function() { 
     about.classList.toggle("activeC");
     features.classList.toggle("activeC");
@@ -79,7 +79,7 @@ var waypoint = new Waypoint({
 })
 
 var waypoint = new Waypoint({
-  element: document.getElementById('D'),
+  element: document.getElementById('DNav'),
   handler: function() { 
     features.classList.toggle("activeC");
     designs.classList.toggle("activeC");
@@ -87,7 +87,7 @@ var waypoint = new Waypoint({
 })
 
 var waypoint = new Waypoint({
-  element: document.getElementById('T'),
+  element: document.getElementById('TNav'),
   handler: function() { 
     designs.classList.toggle("activeC");
     team.classList.toggle("activeC");
