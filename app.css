@@ -1203,50 +1203,80 @@ hr
 {
     position: relative;
     top:30vh;
-    left:25vw;
-    height:50vh;
-    width:50vw;
-    background-color:#6660AA;
+    left:30vw;
+    height:40vh;
+    width:40vw;
+    background-color:#fff;
+    border-radius: 30px;
     transition: ease-in 2s;
 }
 #thanks p
 {
-    text-align: center;
+    padding-left:5vw;
+    padding-right:5vw;
     color:#fff;
 }
 #thanks #TN
 {
-    font-size: 10vh;
+    padding-top:10vh;
+    font-size: 5vh;
+    color:#75C6EE;
 }
 #thanks #MN
 {
-    font-size: 3vh;
+    padding-top:2vh;
+    font-size: 2vh;
+    color: black;
 }
 #thanks .BN
 {
    position: absolute;
-   top:25vh;
-   left:22vw;
+   top:-14vh;
+   left:37vw;
    margin-top:10vh;
    color:#fff;
 }
 #nikl
 {
-    padding:12px;
-    padding-left:22px;
-    padding-right:22px;
-    margin-left:1vw;
-    border: 1px solid #FFF;
-    border-radius: 500px;
-    margin-top:-10px;
+   cursor: pointer; 
 }
-#nikl:hover
+@media only screen and (max-width: 1000px)
+{
+    #thanks
+    {
+        left:22vw;
+        width:60vw;
+        height:30vh;
+        border-radius:10px; 
+    }  
+    #thanks #TN
+    {
+        font-size:0.9rem;
+    }
+    #thanks #MN
+    {
+        font-size:0.5rem;
+    }
+    #thanks img 
+    {
+        height:40px;
+    }
+    #thanks .BN
+    {
+        position: absolute;
+        top:-12vh;
+        left:51vw;
+        margin-top:10vh;
+        color:#fff;
+    }
+}
+/* #nikl:hover
 {
     color: #665eaa !important;
     background: #fff;
     border-color: #665eaa !important;
     transition: all 0.4s ease 0s;
-}
+} */
 /* ---------------------------------------------------------------------------------------- */
 /* .image-slider
 {
