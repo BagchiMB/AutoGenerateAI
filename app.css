@@ -242,7 +242,7 @@ hr
     /* display: block; */
     /* margin-top:-25vh;
     margin-left:-6.5vw; */
-    width: 100vw;
+    width: 120vw;
     top: 0;
     left: 0;
     /* height:90vh; */
@@ -348,7 +348,7 @@ hr
     }
     .display video
     {
-        width:200vw;
+        width:180vw;
         margin-left:-80vw;
         margin-top:-10vh;
     }
