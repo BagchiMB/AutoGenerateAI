@@ -12,6 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="video.js"></script>
     <script src="slowNumber.js"></script>
     <script src="handler.js"></script>
 </head>
@@ -61,7 +62,7 @@
                 </div>
             </div>
     <div class="display">
-            <video preload id="video" autoplay loop>
+            <video preload="metadata" onplay="setVideoBgColorDelayed(this,[102,94,170])" oncanplay="setVideoBgColorDelayed(this,[102,94,170]) id="video" autoplay loop>
                     <source src="videot12.mp4" type="video/mp4"></source>
             </video> 
         <div class="contentDis">
