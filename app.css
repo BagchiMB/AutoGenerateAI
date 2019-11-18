@@ -228,7 +228,7 @@ hr
 .display
 {
     background-color: #665eaa;
-    height:90vh;
+    height:65vh;
     padding-left:6.5vw;
     padding-top:25vh;
     /* z-index:-2; */
@@ -245,8 +245,8 @@ hr
     width: 200vw;
     top: 0;
     left: -50vw;
-    /* height:90vh; */
-    height:80%;
+    height:40rem;
+    /* height:80%; */
 }
 .contentDis
 {
