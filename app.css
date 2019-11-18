@@ -67,7 +67,7 @@
 {
     padding:3.5vh;
     display:flex;
-    background-color: #7269b3;
+    background-color: #665eAA;
     position: fixed;
     z-index: 100;
     width:100vw;
@@ -109,9 +109,9 @@ hr
 }
 #specialN:hover
 {
-    color: #7269b3 !important;
+    color: #665eaa !important;
     background: #fff;
-    border-color: #7269b3 !important;
+    border-color: #665eaa !important;
     transition: all 0.4s ease 0s;
 }
 #specialN
@@ -141,7 +141,7 @@ hr
         display:block;
     }
     .navbar2{
-        background-color: #7269b3;
+        background-color: #665eAA;
         overflow:hidden;
         height:63px;
       }
@@ -227,7 +227,7 @@ hr
 }
 .display
 {
-    background-color: #7269b3;
+    background-color: #665eaa;
     height:90vh;
     padding-left:6.5vw;
     padding-top:25vh;
@@ -354,7 +354,7 @@ hr
     }
     .display
     {
-        background-color: #7269b3;
+        background-color: #665eAA;
         margin-top:-10vh;
         height:65vh;
     }
@@ -1137,7 +1137,7 @@ hr
 {
     padding: 5px;
     border-bottom: 2px solid white;
-    border-right:5px solid #fff;
+    /* border-right:5px solid #fff; */
 }
 #overlay
 {
