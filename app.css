@@ -350,7 +350,7 @@ hr
     display:none;
 }
 
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .container
     {
@@ -478,7 +478,7 @@ hr
     padding-bottom:3vh;
     width:50vw;
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .aboutUs
     {
@@ -589,7 +589,7 @@ hr
     width:125vh;
     left:-13.5vw;
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .stopF
     {
@@ -685,7 +685,7 @@ hr
     margin-bottom:10vh;
 
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .stopD
     {
@@ -762,7 +762,7 @@ hr
 {
     display:none;
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .why > h1
     {
@@ -906,7 +906,7 @@ hr
     /* margin-bottom: -2rem; */
     transform: translateY(-30px);
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {   
     .demo{
         height: 500px;
@@ -1104,7 +1104,7 @@ hr
     top:18vh;
     left:9.5vw;
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .meet
     {
@@ -1161,7 +1161,7 @@ hr
 {
     margin-left:-2.5vw;
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .footer
     {
@@ -1240,7 +1240,7 @@ hr
 {
    cursor: pointer; 
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     #thanks
     {
@@ -1486,7 +1486,7 @@ hr
             background: orange;
         }
 } */
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 500px)
 {
     .Design
     {
