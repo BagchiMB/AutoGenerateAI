@@ -152,7 +152,7 @@ hr
        padding-left:5vw; 
     }
 } 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 635px)
 {
     .navbar
     {
@@ -170,7 +170,7 @@ hr
     .navbar2{
         background-color: #665eAA;
         overflow:hidden;
-        height:63px;
+        height:74px;
       }
       .navbar2 a img
       {
@@ -890,6 +890,32 @@ hr
 {
     display:none;
 }
+@media only screen and (max-width: 990px)
+{
+    .whygrid
+    {
+        height:300vh;
+        display:none;
+    }
+    .whygrid2
+    {
+        display:block;
+        text-align: center;
+    }
+    .wg1 p, .wg2 p, .wg3 p, .wg4 p
+    {
+        color:#6e6e6ee1;
+        padding-bottom: 4vh;
+        width:90vw;
+        padding-left:9vw;
+    }
+    .wg1 h1, .wg2 h1, .wg3 h1, .wg4 h1
+    {
+        color:#75C6EE;
+        padding-bottom:1vh;
+    }
+
+}
 @media only screen and (max-width: 500px)
 {
     .why > h1
@@ -1033,6 +1059,12 @@ hr
     width: 0;
     /* margin-bottom: -2rem; */
     transform: translateY(-30px);
+}
+@media only screen and (max-width: 990px)
+{
+    .demo{
+        margin-top:50vh;
+    }
 }
 @media only screen and (max-width: 500px)
 {   
@@ -1519,7 +1551,7 @@ hr
 {
     .Design
     {
-        height:310vh;
+        height:410vh;
     }
     .product
     {
