@@ -1092,7 +1092,7 @@ hr
 @media only screen and (max-width: 500px)
 {   
     .demo{
-        height: 500px;
+        height: 520px;
         margin-top:0vh;
     }
     
@@ -1288,7 +1288,32 @@ hr
     top:18vh;
     left:9.5vw;
 }
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 1140px)
+{
+    .gridmeet
+    {
+        margin-left:-10vw;
+    }
+    .WB
+    {
+        left:13vw;
+    }
+}
+@media only screen and (max-width: 985px)
+{
+    .gridmeet
+    {
+        margin-left:-11vw;
+    }
+}
+@media only screen and (max-width: 980px)
+{
+    .gridmeet
+    {
+        margin-left:-13vw;
+    }
+}
+@media only screen and (max-width: 970px)
 {
     .meet
     {
@@ -1300,19 +1325,51 @@ hr
     }
     .meet .gridmeet .col
     {
+        margin-left: 35vw;
+    }
+    .meet .gridmeet .col .textmeet 
+    {
+        padding-bottom: 5vh;
+    }
+}
+@media only screen and (max-width: 950px)
+{
+    .WB
+    {
+        left:16vw; 
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .WB
+    {
+        left:20vw; 
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    .WB
+    {
+        left:23vw; 
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .meet .gridmeet .col
+    {
         margin-left: 10vw;
     }
     .meet h1
     {
         font-size: 6.3vh;
     }
-    .meet .gridmeet .col .textmeet 
+    .meet .gridmeet .col
     {
-        padding-bottom: 5vh;
+        margin-left: 30vw;
     }
     .WB
     {
-        left:35vw; 
+        left:25vw; 
     }
 }
 /*--------------------------------------------------Meet ends--------------------------------------------------------------*/
