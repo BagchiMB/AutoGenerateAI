@@ -1065,6 +1065,29 @@ hr
     .demo{
         margin-top:50vh;
     }
+    
+}
+@media only screen and (max-width: 850px)
+{
+    .submission
+    {
+        margin-top:10vh;
+        margin-left:50vw;
+    }
+}
+@media only screen and (max-width: 670px)
+{
+    .submission
+    {
+        margin-left:40vw;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .submission
+    {
+        margin-left:30vw;
+    }
 }
 @media only screen and (max-width: 500px)
 {   
@@ -1072,7 +1095,7 @@ hr
         height: 500px;
         margin-top:0vh;
     }
-
+    
     .demo form input
     {
     position: relative;
