@@ -104,6 +104,7 @@ hr
 .navbar .side-2 ul li a
 {
     color:#fff;
+    /* padding-bottom:5px; */
     text-transform: uppercase;
     font-weight: 400;
 }
@@ -460,7 +461,7 @@ hr
     #demo
     {
         margin-top: 15vh;
-        margin-left: 18vw;
+        margin-left:22vw;
     }
     #demo a
     {
@@ -766,7 +767,7 @@ hr
     .features .f32
     {
         margin-top:30vh;
-        margin-left:31vw;
+        margin-left:30vw;
     }
     .fp1
     {
@@ -775,7 +776,7 @@ hr
         width:45vh;
         height:45vh;
         top:23vh;
-        left:41vw;
+        left:46vw;
     }
     .fp2
     {
@@ -1427,10 +1428,12 @@ hr
 /* -----------------------------------------------alag alag---------------------------- */
 .activeC
 {
-    padding: 5px;
     border-bottom: 2px solid white;
-    /* border-right:5px solid #fff; */
+    padding-bottom:3px;
+    transition: ease-out 0.5s;
+
 }
+
 #overlay
 {
     height: 100vh;

@@ -24,37 +24,10 @@ ok.addEventListener("click", function(){
   overlay.style.display = "none";
 });
 
-//   var sections = $('section')
-//   , nav = $('nav')
-//   , nav_height = nav.outerHeight();
 
-// $(window).on('scroll', function () {
-//   var cur_pos = $(this).scrollTop();
-  
-//   sections.each(function() {
-//     var top = $(this).offset().top - nav_height,
-//         bottom = top + $(this).outerHeight();
-    
-//     if (cur_pos >= top && cur_pos <= bottom) {
-//       nav.find('a').removeClass('active');
-//       sections.removeClass('active');
-      
-//       $(this).addClass('active');
-//       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
-//     }
-//   });
-// });
 
-// nav.find('a').on('click', function () {
-//   var $el = $(this)
-//     , id = $el.attr('href');
-  
-//   $('html, body').animate({
-//     scrollTop: $(id).offset().top - nav_height
-//   }, 500);
-  
-//   return false;
-// });
+
+
 var features = document.getElementById("FN");
 var about = document.getElementById("AUN");
 var designs = document.getElementById("DN");
@@ -65,7 +38,6 @@ var home = document.getElementById("HN");
 var waypoint = new Waypoint({
   element: document.getElementById('AUNav'),
   handler: function() { 
-    console.log("kya bhai?")
     home.classList.toggle("activeC");
     about.classList.toggle("activeC");
   }
@@ -95,9 +67,42 @@ var waypoint = new Waypoint({
   }
 })
 
-// var waypoint = new Waypoint({
-//   element: document.getElementById('top'),
-//   handler: function() { 
-//     home.classList.toggle("activeC");
-//   }
-// })
+
+
+
+// Scrooooooolllllllllllllllllllllllllllll
+$(".featuress").click(function(){
+  $('html,body').animate({
+    scrollTop: $("#FN2").offset().top-70},
+    'slow')
+  });
+$(".teamm").click(function(){
+  $('html,body').animate({
+    scrollTop: $("#TN2").offset().top-80},
+    'slow')
+  });
+$(".aboutUss").click(function(){
+  $('html,body').animate({
+    scrollTop: $("#AU").offset().top-70},
+    'slow')
+  });
+$(".Designn").click(function(){
+  $('html,body').animate({
+    scrollTop: $("#DN2").offset().top-70},
+    'slow')
+  });
+$(".Homee").click(function(){
+  $('html,body').animate({
+    scrollTop: $("#HN2").offset().top-70},
+    'slow')
+  });
+
+  // function myFunction(){
+  //   if( window.screen.width < 500 ){
+  //     document.getElementById('FN2').removeAttribute('data-aos');
+  //   }else if( window.screen.width > 500 ){
+  //     document.getElementById('FN2').addAttribute('data-aos');
+  //   }
+  // }
+
+  // if( window.screen.width < 500 ){

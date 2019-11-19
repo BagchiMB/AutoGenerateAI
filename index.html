@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
-    <script src="video.js"></script>
+    <!-- <script src="video.js"></script> -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
     <script src="slowNumber.js"></script>
     <script src="handler.js"></script>
 </head>
@@ -32,11 +35,11 @@
     <!-- <div class="stopH">P</div>     -->
         <div id="side-menu" class="side-nav">
             <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
-            <a href="#">Home</a>
-            <a href="#AU" onclick="closeSlideMenu()">About Us</a>
-            <a href="#FN2" onclick="closeSlideMenu()">Features</a>
-            <a href="#D" onclick="closeSlideMenu()">Design</a>
-            <a href="#T" onclick="closeSlideMenu()">Team</a>
+            <a class="Homee" onclick="closeSlideMenu()">Home</a>
+            <a class="aboutUss" onclick="closeSlideMenu()">About Us</a>
+            <a class="featuress" onclick="closeSlideMenu();">Features</a>
+            <a class="Designn" onclick="closeSlideMenu()">Design</a>
+            <a class="teamm" onclick="closeSlideMenu()">Team</a>
        </div>
     <div class="navbar">
         <div class="side-1">
@@ -61,8 +64,8 @@
                     <img id="nikl" class="BN" src="cross.svg" alt="">
                 </div>
             </div>
-    <div class="display">
-            <video preload="metadata" onplay="setVideoBgColorDelayed(this,[102,94,170])" oncanplay="setVideoBgColorDelayed(this,[102,94,170])" id="video" autoplay loop>
+    <div id="HN2" class="display">
+            <video preload="metadata" id="video" autoplay loop>
                     <source src="video12.mp4" type="video/mp4"></source>
             </video> 
         <div class="contentDis">
@@ -134,7 +137,7 @@
         <div id="FNav" class="stopFnav"></div>  
         <div id="F" class="stopF"></div>  
     </div>
-    <div id="FN2"class="features" data-aos="fade-up">
+    <div id="FN2" class="features" data-aos="fade-up" >
         <div class="f1">
             <h1>Features</h1>
             <p>Our Generative capabilities enable Human-AI </p>
@@ -167,7 +170,7 @@
         <div id="DNav" class="stopDnav"></div>  
         <div id="D" class="stopD"></div>  
     </div>
-    <div class="Design" data-aos="fade-up">
+    <div id="DN2" class="Design" data-aos="fade-up">
         <h1>Design Samples</h1>
             <div class="product">
                 <div class="box-1 cc"> <img src="./dress-7.png" alt=""></div>
@@ -285,7 +288,7 @@
         <div id="T" class="stopT"></div>
     </div>
     
-    <div  class="meet" data-aos="fade-up" >
+    <div id="TN2" class="meet" data-aos="fade-up" >
         <h1>Meet the team</h1>
         <div class="gridmeet">
                 <div class="col">
@@ -374,9 +377,18 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+        // $(window).resize(function(){
+        //     if($(this).width() >= 500){
+        //         AOS.init({
+        //             offset: 100,
+        //             duration: 1000
+        //         });
+        //     }
+        // })
         AOS.init({
-            offset: 200,
-            duration: 1000
+                    disable:'phone',
+                    offset: 100,
+                    duration: 1000     
         });
     </script>
 
