@@ -65,6 +65,7 @@ var home = document.getElementById("HN");
 var waypoint = new Waypoint({
   element: document.getElementById('AUNav'),
   handler: function() { 
+    console.log("kya bhai?")
     home.classList.toggle("activeC");
     about.classList.toggle("activeC");
   }
@@ -94,9 +95,9 @@ var waypoint = new Waypoint({
   }
 })
 
-var waypoint = new Waypoint({
-  element: document.getElementById('top'),
-  handler: function() { 
-    home.classList.toggle("activeC");
-  }
-})
+// var waypoint = new Waypoint({
+//   element: document.getElementById('top'),
+//   handler: function() { 
+//     home.classList.toggle("activeC");
+//   }
+// })
