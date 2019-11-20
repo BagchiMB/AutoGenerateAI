@@ -96,6 +96,11 @@ $(".Homee").click(function(){
     scrollTop: $("#HN2").offset().top-70},
     'slow')
   });
+$(".demoo").click(function(){
+  $('html,body').animate({
+    scrollTop: $("#DE").offset().top-70},
+    'slow')
+  });
 
   // function myFunction(){
   //   if( window.screen.width < 500 ){

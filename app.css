@@ -342,6 +342,10 @@ hr
     font-size:4.5vh;
     padding:10px;
 }
+#demo2
+{
+    display:none;
+}
 #demo
 {
     margin-top:8vh;
@@ -460,10 +464,15 @@ hr
     }
     #demo
     {
-        margin-top: 15vh;
-        margin-left:22vw;
+        display:none;
     }
-    #demo a
+    #demo2
+    {
+        display: block;
+        margin-top: 15vh;
+        margin-left:19vw;
+    }
+    #demo2 a
     {
         background: #fff;
         color:#665eAA;
@@ -491,6 +500,7 @@ hr
 {
     padding:10vh;
     display:flex;
+    margin-bottom:-8vh;
 }
 .photo
 {
@@ -512,7 +522,7 @@ hr
 }
 .Acontent h1
 {
-    font-size:8.5vh;
+    font-size:8vh;
     color:#74c8f1;
     padding-bottom:3vh;
 }
@@ -520,7 +530,7 @@ hr
 {
     font-family: "F37Ginger-LightItalic";
     color:#6e6e6e;
-    font-size:35px;
+    font-size:30px;
     padding-bottom:3vh;
 }
 .Acontent .intro2
@@ -531,9 +541,9 @@ hr
 {
     font-family: "F37Ginger-LightItalic";
     color:#6e6e6ee1;
-    font-size:25px;
+    font-size:22px;
     padding-bottom:3vh;
-    width:50vw;
+    width:45vw;
 }
 @media only screen and (max-width: 990px)
 {
