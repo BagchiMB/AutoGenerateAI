@@ -608,6 +608,7 @@ hr
     .Acontent h1
     {
         font-size:6.8vh;
+        padding-left:15px;
     }
     .Acontent .intro
     {
@@ -618,13 +619,13 @@ hr
         display:block;
         color:#6e6e6e;
         font-size:2.7vh;
-        margin-left:-4vw;
+        margin-left:3vw;
         margin-top: -2vh;
         padding-bottom:3vh;
     }
     .Acontent .para-1, .Acontent .para-2
     {
-        margin-left:-1vw;
+        margin-left:-2vw;
         width:75vw;
         font-size:2.6vh;
     }
@@ -941,6 +942,7 @@ hr
     .why > h1
     {
         font-size:6vh;
+        margin-left: 20px;
     }
     .whygrid
     {
@@ -1330,7 +1332,7 @@ hr
 {
     .gridmeet
     {
-        margin-left:-13vw;
+        margin-left:-14vw;
     }
 }
 @media only screen and (max-width: 970px)
