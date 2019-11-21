@@ -73,32 +73,32 @@ var waypoint = new Waypoint({
 // Scrooooooolllllllllllllllllllllllllllll
 $(".featuress").click(function(){
   $('html,body').animate({
-    scrollTop: $("#FN2").offset().top-70},
+    scrollTop: $("#FN2").offset().top-73},
     'slow')
   });
 $(".teamm").click(function(){
   $('html,body').animate({
-    scrollTop: $("#TN2").offset().top-80},
+    scrollTop: $("#TN2").offset().top-83},
     'slow')
   });
 $(".aboutUss").click(function(){
   $('html,body').animate({
-    scrollTop: $("#AU").offset().top-70},
+    scrollTop: $("#AU").offset().top-90},
     'slow')
   });
 $(".Designn").click(function(){
   $('html,body').animate({
-    scrollTop: $("#DN2").offset().top-70},
+    scrollTop: $("#DN2").offset().top-73},
     'slow')
   });
 $(".Homee").click(function(){
   $('html,body').animate({
-    scrollTop: $("#HN2").offset().top-70},
+    scrollTop: $("#HN2").offset().top-73},
     'slow')
   });
 $(".demoo").click(function(){
   $('html,body').animate({
-    scrollTop: $("#DE").offset().top-70},
+    scrollTop: $("#DE").offset().top-73},
     'slow')
   });
 
@@ -111,8 +111,8 @@ $(".demoo").click(function(){
   // }
 
   // if( window.screen.width < 500 ){
-$("a[href^=#]").on("click",function(e)
-{
-  e.preventDefault();
-  history.pushState({},"",this.href);
-});
+// $("a[href^=#]").on("click",function(e)
+// {
+//   e.preventDefault();
+//   history.pushState({},"",this.href);
+// });

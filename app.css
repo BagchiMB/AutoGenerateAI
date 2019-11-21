@@ -639,7 +639,7 @@ hr
 .stopF
 {
     position: relative;
-    top:83vh;
+    top:76vh;
 }
 .features 
 {
@@ -742,7 +742,7 @@ hr
     } */
     .features
     {
-        height:85vh;
+        /* height:85vh; */
     }
     .f1, .f2, .f3
     {
