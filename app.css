@@ -742,7 +742,7 @@ hr
     } */
     .features
     {
-        /* height:85vh; */
+        height:85vh;
     }
     .f1, .f2, .f3
     {
@@ -944,7 +944,7 @@ hr
     }
     .whygrid
     {
-        height:300vh;
+        /* height:300vh; */
         display:none;
     }
     .whygrid2
@@ -1132,7 +1132,7 @@ hr
     }
     .demo
     {
-        margin-top:506px;
+        /* margin-top:506px; */
     }
     .demo h1
     {
