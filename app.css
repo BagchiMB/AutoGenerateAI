@@ -92,7 +92,7 @@ hr
 {
     
     display :flex;
-    padding-left:39vw;
+    padding-left:43vw;
     
 }
 .navbar .side-2 ul li
@@ -984,6 +984,7 @@ hr
     height:85vh;
     background-color: #6660AA;
     position: relative;
+    padding-bottom:5vh;
 }
 .demo img
 {
@@ -1025,6 +1026,7 @@ hr
     z-index: 9999;
     color:white;
     font-size:1rem;
+    overflow: visible;
 }
 .demo form a
 {
@@ -1404,23 +1406,23 @@ hr
 {
     text-align:center;
     padding-top:8vh;
-    height:25vh;
-    background-color: #6660AA;
+    height:20vh;
+    background-color: #fff;
     font-size:2vh;
 }
 .footer h1
 {
-    color:#fff;
+    color:#6660AA;;
     margin-bottom:2vh;
 }
 .footer p
 {
-    color:#fff;
+    color:#6660AA;;
     font-weight:600;
 }
 .footer a
 {
-    color:white;
+    color:#6660AA;;
     font-size:5vh;
     padding-left:2vw;
 }
