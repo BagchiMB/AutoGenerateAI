@@ -1429,6 +1429,7 @@ hr
 .social
 {
     margin-left:-2.5vw;
+    position:relative;
 }
 @media only screen and (max-width: 500px)
 {
