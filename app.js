@@ -67,8 +67,19 @@ var waypoint = new Waypoint({
   }
 })
 
-
-
+function change2()
+{
+  var hola= document.getElementById('p1');
+  var bhola=document.getElementById('p2');
+  p1.style.display="none";
+  p2.style.display="grid";
+}
+function change()
+{
+  var hola= document.getElementById('p1');
+  p1.style.display="grid";
+  p2.style.display="none";
+}
 
 // Scrooooooolllllllllllllllllllllllllllll
 $(".featuress").click(function(){
